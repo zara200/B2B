@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="B2BCortlow">
+        <classes>
+
+            <class name="Modules.Signup_Guest">
+            </class>
+            <class name="Modules.CustomerApplication"></class>
+
+            <class name="Modules.Signout"></class>
+
+            <class name="Modules.Admin"></class>
+
+            <class name="Modules.SignIn"></class>
+
+            <class name="Modules.Order_flow"></class>
+           </classes>
+       </test>
+   </suite>
